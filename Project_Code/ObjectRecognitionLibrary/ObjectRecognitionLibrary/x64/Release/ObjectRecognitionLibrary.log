@@ -1,0 +1,28 @@
+﻿Build started 3/27/2013 4:18:17 PM.
+     1>Project "C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\ObjectRecognitionLibrary\ObjectRecognitionLibrary\ObjectRecognitionLibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\ObjectRecognitionLibrary.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\ObjectRecognitionLibrary.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp ObjectRecognitionLibrary.cpp
+         AssemblyInfo.cpp
+         ObjectRecognitionLibrary.cpp
+     1>c:\users\aleksandar_mitrevski\documents\visual studio 2012\projects\bachelor's thesis\objectrecognitionlibrary\objectrecognitionlibrary\NeuralNetworkTrainer.h(54): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aleksandar_mitrevski\documents\visual studio 2012\projects\bachelor's thesis\objectrecognitionlibrary\objectrecognitionlibrary\NeuralNetworkClassifier.h(57): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>c:\users\aleksandar_mitrevski\documents\visual studio 2012\projects\bachelor's thesis\objectrecognitionlibrary\objectrecognitionlibrary\ObjectRecognitionLibrary.h(41): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /TP /errorReport:prompt "C:\Users\aleksandar_mitrevski\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\ObjectRecognitionLibrary\x64\Release\ObjectRecognitionLibrary.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\ObjectRecognitionLibrary\x64\Release\ObjectRecognitionLibrary.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\ObjectRecognitionLibrary.obj
+         x64\Release\Stdafx.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ObjectRecognitionLibrary.vcxproj -> C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\ObjectRecognitionLibrary\x64\Release\ObjectRecognitionLibrary.dll
+     1>Done Building Project "C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\ObjectRecognitionLibrary\ObjectRecognitionLibrary\ObjectRecognitionLibrary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.65

@@ -1,0 +1,41 @@
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\Bin\Debug\ApplicationIcon.png
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\Bin\Debug\Background.png
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.dll
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.pdb
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\Bin\Debug\AppManifest.xaml
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.xap
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.csprojResolveAssemblyReference.cache
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\App.g.cs
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\MainPage.g.cs
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.g.resources
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.dll
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.pdb
+C:\Users\aleksandar_mitrevski\documents\visual studio 2012\Projects\NxtLocalization\NxtLocalization\obj\Debug\XapCacheFile.xml
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\ApplicationIcon.png
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\Background.png
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\Content\WorldMap.xml
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.dll
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.pdb
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\AppManifest.xaml
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.xap
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\App.g.cs
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\MainPage.g.cs
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.g.resources
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.dll
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.pdb
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\XapCacheFile.xml
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.csprojResolveAssemblyReference.cache
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\ApplicationIcon.png
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\Background.png
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\Content\WorldMap.xml
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.dll
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.pdb
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\AppManifest.xaml
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\Bin\Debug\NxtLocalization.xap
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.csprojResolveAssemblyReference.cache
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\App.g.cs
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\MainPage.g.cs
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.g.resources
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.dll
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\NxtLocalization.pdb
+C:\Users\aleksandar_mitrevski\Documents\Visual Studio 2012\Projects\Bachelor's Thesis\NXT\NxtLocalization\NxtLocalization\obj\Debug\XapCacheFile.xml

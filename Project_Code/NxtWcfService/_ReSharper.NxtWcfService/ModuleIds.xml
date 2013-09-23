@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="99B4B6AE-4958-4039-B59D-378022E2869D" ModuleId="NxtWcfService" />
+  <Module PersistentId="NumberExtractorLibrary, Version=1.0.4837.27276, Culture=neutral, PublicKeyToken=null" ModuleId="NumberExtractorLibrary" />
+  <Module PersistentId="ObjectRecognitionLibrary, Version=1.0.4836.14565, Culture=neutral, PublicKeyToken=null" ModuleId="ObjectRecognitionLibrary" />
+</Modules>

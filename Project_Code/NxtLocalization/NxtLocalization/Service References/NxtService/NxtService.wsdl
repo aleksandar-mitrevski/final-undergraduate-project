@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="NxtService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.178.41:364/NxtService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.178.41:364/NxtService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.178.41:364/NxtService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://192.168.178.41:364/NxtService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/Message" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="INxtService_ClassifierTrained_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClassifierTrained" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ClassifierTrained_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClassifierTrainedResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_TrainClassifier_InputMessage">
+    <wsdl:part name="parameters" element="tns:TrainClassifier" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_TrainClassifier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TrainClassifierResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ClassifyCharacters_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClassifyCharacters" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ClassifyCharacters_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClassifyCharactersResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_SaveImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveImage" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_SaveImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ExtractCharacters_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExtractCharacters" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ExtractCharacters_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExtractCharactersResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_SaveLocalizationData_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveLocalizationData" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_SaveLocalizationData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveLocalizationDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ConnectBrick_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectBrick" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ConnectBrick_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectBrickResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_DisconnectBrick_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisconnectBrick" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_DisconnectBrick_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisconnectBrickResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetLeftMotorTachoCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeftMotorTachoCount" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetLeftMotorTachoCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeftMotorTachoCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetRightMotorTachoCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRightMotorTachoCount" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetRightMotorTachoCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRightMotorTachoCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ResetMotorTachometers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResetMotorTachometers" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_ResetMotorTachometers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResetMotorTachometersResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_MoveMotors_InputMessage">
+    <wsdl:part name="parameters" element="tns:MoveMotors" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_MoveMotors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MoveMotorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoForward_InputMessage">
+    <wsdl:part name="parameters" element="tns:GoForward" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoForward_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GoForwardResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoBackward_InputMessage">
+    <wsdl:part name="parameters" element="tns:GoBackward" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoBackward_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GoBackwardResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoLeft_InputMessage">
+    <wsdl:part name="parameters" element="tns:GoLeft" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoLeft_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GoLeftResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoRight_InputMessage">
+    <wsdl:part name="parameters" element="tns:GoRight" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GoRight_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GoRightResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetDistanceToObstacle_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistanceToObstacle" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetDistanceToObstacle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistanceToObstacleResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetColorIntensity_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetColorIntensity" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_GetColorIntensity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetColorIntensityResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_StopMotors_InputMessage">
+    <wsdl:part name="parameters" element="tns:StopMotors" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_StopMotors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopMotorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_StopLight_InputMessage">
+    <wsdl:part name="parameters" element="tns:StopLight" />
+  </wsdl:message>
+  <wsdl:message name="INxtService_StopLight_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopLightResponse" />
+  </wsdl:message>
+  <wsdl:portType name="INxtService">
+    <wsdl:operation name="ClassifierTrained">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/ClassifierTrained" message="tns:INxtService_ClassifierTrained_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/ClassifierTrainedResponse" message="tns:INxtService_ClassifierTrained_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TrainClassifier">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/TrainClassifier" message="tns:INxtService_TrainClassifier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/TrainClassifierResponse" message="tns:INxtService_TrainClassifier_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyCharacters">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/ClassifyCharacters" message="tns:INxtService_ClassifyCharacters_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/ClassifyCharactersResponse" message="tns:INxtService_ClassifyCharacters_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/SaveImage" message="tns:INxtService_SaveImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/SaveImageResponse" message="tns:INxtService_SaveImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtractCharacters">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/ExtractCharacters" message="tns:INxtService_ExtractCharacters_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/ExtractCharactersResponse" message="tns:INxtService_ExtractCharacters_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveLocalizationData">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/SaveLocalizationData" message="tns:INxtService_SaveLocalizationData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/SaveLocalizationDataResponse" message="tns:INxtService_SaveLocalizationData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConnectBrick">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/ConnectBrick" message="tns:INxtService_ConnectBrick_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/ConnectBrickResponse" message="tns:INxtService_ConnectBrick_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisconnectBrick">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/DisconnectBrick" message="tns:INxtService_DisconnectBrick_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/DisconnectBrickResponse" message="tns:INxtService_DisconnectBrick_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLeftMotorTachoCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GetLeftMotorTachoCount" message="tns:INxtService_GetLeftMotorTachoCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GetLeftMotorTachoCountResponse" message="tns:INxtService_GetLeftMotorTachoCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRightMotorTachoCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GetRightMotorTachoCount" message="tns:INxtService_GetRightMotorTachoCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GetRightMotorTachoCountResponse" message="tns:INxtService_GetRightMotorTachoCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetMotorTachometers">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/ResetMotorTachometers" message="tns:INxtService_ResetMotorTachometers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/ResetMotorTachometersResponse" message="tns:INxtService_ResetMotorTachometers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MoveMotors">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/MoveMotors" message="tns:INxtService_MoveMotors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/MoveMotorsResponse" message="tns:INxtService_MoveMotors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GoForward">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GoForward" message="tns:INxtService_GoForward_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GoForwardResponse" message="tns:INxtService_GoForward_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GoBackward">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GoBackward" message="tns:INxtService_GoBackward_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GoBackwardResponse" message="tns:INxtService_GoBackward_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GoLeft">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GoLeft" message="tns:INxtService_GoLeft_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GoLeftResponse" message="tns:INxtService_GoLeft_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GoRight">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GoRight" message="tns:INxtService_GoRight_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GoRightResponse" message="tns:INxtService_GoRight_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistanceToObstacle">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GetDistanceToObstacle" message="tns:INxtService_GetDistanceToObstacle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GetDistanceToObstacleResponse" message="tns:INxtService_GetDistanceToObstacle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetColorIntensity">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/GetColorIntensity" message="tns:INxtService_GetColorIntensity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/GetColorIntensityResponse" message="tns:INxtService_GetColorIntensity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StopMotors">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/StopMotors" message="tns:INxtService_StopMotors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/StopMotorsResponse" message="tns:INxtService_StopMotors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StopLight">
+      <wsdl:input wsaw:Action="http://tempuri.org/INxtService/StopLight" message="tns:INxtService_StopLight_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INxtService/StopLightResponse" message="tns:INxtService_StopLight_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_INxtService" type="tns:INxtService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ClassifierTrained">
+      <soap:operation soapAction="http://tempuri.org/INxtService/ClassifierTrained" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrainClassifier">
+      <soap:operation soapAction="http://tempuri.org/INxtService/TrainClassifier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClassifyCharacters">
+      <soap:operation soapAction="http://tempuri.org/INxtService/ClassifyCharacters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveImage">
+      <soap:operation soapAction="http://tempuri.org/INxtService/SaveImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtractCharacters">
+      <soap:operation soapAction="http://tempuri.org/INxtService/ExtractCharacters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveLocalizationData">
+      <soap:operation soapAction="http://tempuri.org/INxtService/SaveLocalizationData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConnectBrick">
+      <soap:operation soapAction="http://tempuri.org/INxtService/ConnectBrick" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisconnectBrick">
+      <soap:operation soapAction="http://tempuri.org/INxtService/DisconnectBrick" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeftMotorTachoCount">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GetLeftMotorTachoCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRightMotorTachoCount">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GetRightMotorTachoCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetMotorTachometers">
+      <soap:operation soapAction="http://tempuri.org/INxtService/ResetMotorTachometers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MoveMotors">
+      <soap:operation soapAction="http://tempuri.org/INxtService/MoveMotors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoForward">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GoForward" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoBackward">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GoBackward" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoLeft">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GoLeft" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoRight">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GoRight" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistanceToObstacle">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GetDistanceToObstacle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetColorIntensity">
+      <soap:operation soapAction="http://tempuri.org/INxtService/GetColorIntensity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopMotors">
+      <soap:operation soapAction="http://tempuri.org/INxtService/StopMotors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopLight">
+      <soap:operation soapAction="http://tempuri.org/INxtService/StopLight" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NxtService">
+    <wsdl:port name="BasicHttpBinding_INxtService" binding="tns:BasicHttpBinding_INxtService">
+      <soap:address location="http://192.168.178.41:364/NxtService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

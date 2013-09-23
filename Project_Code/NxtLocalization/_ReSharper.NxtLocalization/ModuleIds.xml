@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="802F5F2C-71C6-4CB6-97E0-633B128B9853" ModuleId="NxtLocalization" />
+  <Module PersistentId="mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" ModuleId="mscorlib" />
+  <Module PersistentId="System, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" ModuleId="System" />
+</Modules>

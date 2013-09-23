@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_INxtService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://{your ip address}/NxtService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_INxtService"
+                contract="NxtService.INxtService" name="BasicHttpBinding_INxtService" />
+        </client>
+    </system.serviceModel>
+</configuration>

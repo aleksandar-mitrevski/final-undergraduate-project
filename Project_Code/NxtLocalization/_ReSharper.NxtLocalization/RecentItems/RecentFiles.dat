@@ -1,0 +1,51 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:App.xaml" caret="352" fromTop="6" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Content/f:WorldMap.xml" caret="0" fromTop="0" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:MainPage.xaml" caret="836" fromTop="10" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:Particle.cs" caret="520" fromTop="7" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:Vector2D.cs" caret="570" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:App.xaml.cs" caret="0" fromTop="0" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:PictureCapturingUtility.cs" caret="246" fromTop="9" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:FindGoalBehaviorInput.cs" caret="292" fromTop="9" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:HeadingDirections.cs" caret="0" fromTop="0" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:OdometryUtility.cs" caret="1447" fromTop="14" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:LocalizeBehaviorInput.cs" caret="240" fromTop="9" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:Constants.cs" caret="279" fromTop="8" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:ParticleFilterUtility.cs" caret="158" fromTop="6" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:RobotBehavior.cs" caret="0" fromTop="0" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:AStarLibrary.cs" caret="94" fromTop="4" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:AStarNode.cs" caret="417" fromTop="9" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:AStarResult.cs" caret="313" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:Coordinates2D.cs" caret="107" fromTop="4" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:MinHeap.cs" caret="359" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:CompassUtility.cs" caret="74" fromTop="3" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:ServiceReferences.ClientConfig" caret="0" fromTop="0" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:MainPage.xaml.cs" caret="7086" fromTop="3" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:NxtServiceClientWrapper.cs" caret="2139" fromTop="11" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:AStarNode.cs" caret="2027" fromTop="1" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Content/f:WorldMap.xml" caret="541" fromTop="12" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:MainPage.xaml" caret="2771" fromTop="12" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:FindGoalBehaviorInput.cs" caret="833" fromTop="7" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:HeadingDirections.cs" caret="168" fromTop="4" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:LocalizeBehaviorInput.cs" caret="946" fromTop="14" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:NxtServiceClientWrapper.cs" caret="2428" fromTop="22" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:OdometryUtility.cs" caret="672" fromTop="18" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:Particle.cs" caret="383" fromTop="9" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:PictureCapturingUtility.cs" caret="2257" fromTop="3" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:Vector2D.cs" caret="100" fromTop="3" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:App.xaml.cs" caret="0" fromTop="0" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:Constants.cs" caret="336" fromTop="8" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:CompassUtility.cs" caret="2916" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:ParticleFilterUtility.cs" caret="8658" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:Utilities/f:RobotBehavior.cs" caret="426" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:AStarLibrary.cs" caret="221" fromTop="8" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:AStarResult.cs" caret="246" fromTop="7" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:Coordinates2D.cs" caret="66" fromTop="3" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/d:AStar/f:MinHeap.cs" caret="161" fromTop="6" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:ServiceReferences.ClientConfig" caret="714" fromTop="11" />
+    <File id="802F5F2C-71C6-4CB6-97E0-633B128B9853/f:MainPage.xaml.cs" caret="5587" fromTop="16" />
+  </RecentEdits>
+</RecentFiles>
